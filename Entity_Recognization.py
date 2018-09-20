@@ -5,11 +5,11 @@ stop = stopwords.words('english')
 string = """
  Hey,
 This week has been crazy. Attached is my report on IBM. Can you give it a quick read and provide some feedback.
-Also, make sure you reach out to Claire (claire@xyz.com).
+Also, make sure you reach out to Sandeep (sandeepbhandari135@gmail.com).
 You're the best.
 Cheers,
-George W.
-212-555-1234 
+Nepal
+977-9896639956
 """
 def extract_phone_numbers(string):
 	r=re.compile(r'(\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4})')
